@@ -1,0 +1,24 @@
+{
+  "name": "pubsub",
+  "version": "1.0.0",
+  "description": "A simple javascript publish-subscribe",
+  "main": "index.js",
+  "testling": {
+    "files": "spec/*.js",
+    "harness": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dyb/pubsub.git"
+  },
+  "keywords": [
+    "publish",
+    "subscribe"
+  ],
+  "author": "ybduan <duanyubin2012@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dyb/pubsub/issues"
+  },
+  "homepage": "https://github.com/dyb/pubsub#readme"
+}
