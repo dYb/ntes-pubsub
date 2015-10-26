@@ -1,5 +1,5 @@
 {
-  "name": "pubsub",
+  "name": "ntes-pubsub",
   "version": "1.0.0",
   "description": "A simple javascript publish-subscribe",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dyb/pubsub.git"
+    "url": "https://github.com/dyb/pubsub.git"
   },
   "keywords": [
     "publish",
