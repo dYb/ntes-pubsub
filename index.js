@@ -2,7 +2,10 @@ var Pubsub = (function(){
   var topics = {}
   function subscribe(topic, observer){
     topics[topic] = topics[topic] || []
-    var token = topics[topic].length
+    var token = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+      var r = Math.random()*16|0, v = c == 'x' ? r : (r&0x3|0x8);
+      return v.toString(16);
+    });
     unsubscribe(topic, observer)
     topics[topic].push({
       token: token,
